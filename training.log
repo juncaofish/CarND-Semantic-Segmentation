@@ -1,0 +1,48 @@
+2019-01-16 05:35:20.180201: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-16 05:35:20.180276: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-16 05:35:20.180293: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-16 05:35:20.180302: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-16 05:35:20.180311: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-16 05:35:20.303935: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-01-16 05:35:20.304300: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties:
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.09GiB
+2019-01-16 05:35:20.304344: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0
+2019-01-16 05:35:20.304360: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y
+2019-01-16 05:35:20.304373: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+2019-01-16 05:35:20.514610: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+2019-01-16 05:35:20.516023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+2019-01-16 05:35:27.607442: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+2019-01-16 05:35:28.920244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+2019-01-16 05:35:28.929341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+TensorFlow Version: 1.3.0
+Default GPU Device: /gpu:0
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Epoch: 00  -  Loss: 353.707
+Epoch: 01  -  Loss: 22.426
+Epoch: 02  -  Loss: 20.450
+Epoch: 03  -  Loss: 18.122
+Epoch: 04  -  Loss: 15.069
+Epoch: 05  -  Loss: 13.044
+Epoch: 06  -  Loss: 10.146
+Epoch: 07  -  Loss: 9.532
+Epoch: 08  -  Loss: 8.502
+Epoch: 09  -  Loss: 8.319
+Epoch: 10  -  Loss: 7.516
+Epoch: 11  -  Loss: 7.693
+Epoch: 12  -  Loss: 7.281
+Epoch: 13  -  Loss: 7.734
+Epoch: 14  -  Loss: 6.586
+Epoch: 15  -  Loss: 6.472
+Epoch: 16  -  Loss: 6.028
+Epoch: 17  -  Loss: 6.018
+Epoch: 18  -  Loss: 6.368
+Epoch: 19  -  Loss: 6.688
+Training Finished. Saving test images to: ./runs/1547618424.1645503
